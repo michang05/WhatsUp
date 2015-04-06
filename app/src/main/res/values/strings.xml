@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WhatsUp</string>
+    <string name="Label">Enter City/Country</string>
+    <string name="ADD">Add a city</string>
+    <string name="Refresh">Refresh</string>
+    <string name="Delete">Delete All</string>
+    <string name="title_activity_weather_detail">WeatherDetail</string>
+    <string name="api_policy">World Weather Online</string>
+</resources>

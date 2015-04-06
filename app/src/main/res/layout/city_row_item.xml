@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip">
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tvTemp"
+        android:layout_toRightOf="@id/imgIcon"
+        android:layout_toStartOf="@+id/tvTemp"
+        android:ellipsize="marquee"
+        android:text="Partly Cloudy"
+        android:textColor="#CC4545"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvCity"
+        android:layout_alignEnd="@+id/tvCity"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/tvCity"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/imgIcon"
+        android:layout_toStartOf="@+id/tvTemp"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvCity"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="38 c"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+</RelativeLayout>
